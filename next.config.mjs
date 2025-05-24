@@ -3,8 +3,8 @@ const isGitHub = process.env.GITHUB_ACTIONS === 'true';
 
 const nextConfig = {
   output: 'export',
-  basePath: isGitHub ? '/VivianPortfolio-master' : '',
-  assetPrefix: isGitHub ? '/VivianPortfolio-master/' : '',
+  basePath: isGitHub ? '/ViPhungProfile' : '',
+  assetPrefix: isGitHub ? '/ViPhungProfile/' : '',
   images: {
     unoptimized: true,
     remotePatterns: [
