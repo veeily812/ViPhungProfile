@@ -1,6 +1,3 @@
-'use server';
-
-import { generateProjectDescription, GenerateProjectDescriptionInput, GenerateProjectDescriptionOutput } from '@/ai/flows/generate-project-description';
 import { z } from 'zod';
 
 const ActionInputSchema = z.object({
@@ -28,14 +25,26 @@ export async function generateDescriptionAction(
   }
 
   try {
-    const input: GenerateProjectDescriptionInput = {
-      projectInfo: validatedFields.data.projectInfo,
-      writingStyle: validatedFields.data.writingStyle,
-    };
-    const result: GenerateProjectDescriptionOutput = await generateProjectDescription(input);
+    const response = await fetch('/api/generate-description', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        projectInfo: validatedFields.data.projectInfo,
+        writingStyle: validatedFields.data.writingStyle,
+      }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.error || 'Failed to generate description');
+    }
+
     return {
       message: 'Description generated successfully!',
-      description: result.description,
+      description: data.description,
     };
   } catch (error) {
     console.error('Error generating description:', error);

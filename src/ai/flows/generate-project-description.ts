@@ -1,6 +1,3 @@
-// use server'
-'use server';
-
 /**
  * @fileOverview AI tool for generating descriptions of projects, using a specific writing style, by submitting unstructured information about the project.
  *
