@@ -6,6 +6,7 @@ import ResearchPublicationSection from '@/components/sections/research-publicati
 import AiGeneratorSection from '@/components/sections/ai-generator-section';
 import ContactSection from '@/components/sections/contact-section';
 import ResumeSection from '@/components/sections/resume-section';
+import PowerBISection from '@/components/sections/power-bi-section';
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <ProjectsSection />
       <SkillsSection />
       <ResearchPublicationSection />
+      <PowerBISection />
       <AiGeneratorSection />
       <ContactSection />
       <ResumeSection />
