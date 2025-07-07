@@ -11,7 +11,7 @@ export default function PowerBISection() {
             <div className="relative w-full h-[300px] mb-4">
               <Image
                 src="/power-bi/Adidas.png"
-                alt="Financial Dashboard Template"
+                alt="Adidas Performance Track"
                 fill
                 className="object-contain"
               />
@@ -26,8 +26,8 @@ export default function PowerBISection() {
             <h3 className="text-xl font-semibold mb-4">Sales Analytics Template</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
-                src="/power-bi/Amazon2.png"
-                alt="Sales Analytics Template"
+                src="power-bi/Amazon2.png"
+                alt="Amazon's Customer Profile "
                 fill
                 className="object-contain"
               />
@@ -42,8 +42,8 @@ export default function PowerBISection() {
             <h3 className="text-xl font-semibold mb-4">HR Analytics Dashboard</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
-                src="/power-bi/EV.png"
-                alt="Analytics Dashboard"
+                src="power-bi/EV.png"
+                alt="Global EV Overview"
                 fill
                 className="object-contain"
               />
@@ -58,8 +58,8 @@ export default function PowerBISection() {
             <h3 className="text-xl font-semibold mb-4">Marketing Campaign Analytics</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
-                src="/power-bi/Indian_woman_fashion2.png"
-                alt="Marketing Campaign Analytics"
+                src="power-bi/Indian_Woman_Fashion.png"
+                alt="Indian Woman Fashion Price, Bundle Exploration"
                 fill
                 className="object-contain"
               />
@@ -74,8 +74,8 @@ export default function PowerBISection() {
             <h3 className="text-xl font-semibold mb-4">Supply Chain Dashboard</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
-                src="power-bi/Green_fashion.png"
-                alt="Supply Chain Dashboard"
+                src="/power-bi/Green_fashion.png"
+                alt="Green Fashion Trend"
                 fill
                 className="object-contain"
               />
@@ -91,7 +91,7 @@ export default function PowerBISection() {
             <div className="relative w-full h-[300px] mb-4">
               <Image
                 src="power-bi/Green_fashion1.png"
-                alt="Trend Analytics"
+                alt="Clustering Analytics"
                 fill
                 className="object-contain"
               />
