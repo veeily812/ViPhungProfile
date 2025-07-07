@@ -14,16 +14,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Card className="flex flex-col h-full overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg">
       <CardHeader className="p-0">
-        <div className="relative w-full h-48 md:h-56">
-          <Image
-            src={project.imageUrl}
-            alt={project.title}
-            fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            data-ai-hint={project.imageHint || "technology abstract"}
-          />
-        </div>
       </CardHeader>
       <CardContent className="p-6 flex-grow">
         <CardTitle className="text-2xl mb-2 text-primary">{project.title}</CardTitle>
