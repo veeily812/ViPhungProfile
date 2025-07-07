@@ -74,7 +74,7 @@ export default function PowerBISection() {
             <h3 className="text-xl font-semibold mb-4">Green Fashion Trend</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
-                src="/power-bi/Green_fashion.png"
+                src="power-bi/Green_fashion.png"
                 alt="Green Fashion Trend"
                 fill
                 className="object-contain"
