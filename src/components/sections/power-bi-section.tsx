@@ -7,10 +7,10 @@ export default function PowerBISection() {
         <h2 className="text-3xl font-bold text-center mb-8">Power BI Templates</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Financial Dashboard Template</h3>
+            <h3 className="text-xl font-semibold mb-4">Adidas Performance Track</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
-                src="/power-bi/Adidas.png"
+                src="power-bi/Adidas.png"
                 alt="Adidas Performance Track"
                 fill
                 className="object-contain"
@@ -55,7 +55,7 @@ export default function PowerBISection() {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Marketing Campaign Analytics</h3>
+            <h3 className="text-xl font-semibold mb-4">Indian Woman Fashion Price, Bundle Exploration</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
                 src="power-bi/Indian_Woman_Fashion.png"
@@ -71,7 +71,7 @@ export default function PowerBISection() {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Supply Chain Dashboard</h3>
+            <h3 className="text-xl font-semibold mb-4">Green Fashion Trend</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
                 src="/power-bi/Green_fashion.png"
@@ -87,7 +87,7 @@ export default function PowerBISection() {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4">Customer Service Analytics</h3>
+            <h3 className="text-xl font-semibold mb-4">Clustering Analytics</h3>
             <div className="relative w-full h-[300px] mb-4">
               <Image
                 src="power-bi/Green_fashion1.png"
